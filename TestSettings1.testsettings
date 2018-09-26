@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings name="TestSettings1" id="05206c63-d44c-4615-99cc-154ab89561eb" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>These are default test settings for a local test run.</Description>
+  <Deployment>
+    <DeploymentItem filename="C:\Program Files\Java\jdk1.8.0_181\jre.exe" />
+    <DeploymentItem filename="C:\Users\mfelt\Downloads\python-3.7.0-amd64-webinstall.exe" />
+    <DeploymentItem filename=".vs\Solution1\" />
+  </Deployment>
+  <Scripts setupScript="C:\Users\mfelt\source\repos\App1\App1\Resources\mipmap-anydpi-v26\ic_launcher_round.xml" />
+  <Execution hostProcessPlatform="MSIL">
+    <TestTypeSpecific>
+      <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+        <AssemblyResolution applicationBaseDirectory="%USERPROFILE%\Desktop\.vscode">
+          <TestDirectory useLoadContext="true" />
+        </AssemblyResolution>
+      </UnitTestRunConfig>
+    </TestTypeSpecific>
+    <AgentRule name="LocalMachineDefaultRole">
+    </AgentRule>
+  </Execution>
+  <Properties />
+</TestSettings>
