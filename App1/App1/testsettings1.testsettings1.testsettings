@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings name="TestSettings1" id="afc21804-b979-4a9f-9ec2-640a836c36f4" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>These are default test settings for a local test run.</Description>
+  <Deployment>
+    <DeploymentItem filename="C:\Program Files\Java\jdk1.8.0_181\jre.exe" />
+    <DeploymentItem filename="C:\Users\mfelt\Downloads\python-3.7.0-amd64-webinstall.exe" />
+    <DeploymentItem filename=".vs\Solution1\" />
+  </Deployment>
+  <NamingScheme baseName="keshia" useDefault="false" />
+  <Scripts setupScript="C:\Users\mfelt\source\repos\App1\App1\Resources\mipmap-anydpi-v26\ic_launcher_round.xml" cleanupScript="C:\Users\mfelt\source\repos\.vs\Solution1\v15\.suo" />
+  <Execution hostProcessPlatform="MSIL">
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific>
+      <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+        <AssemblyResolution applicationBaseDirectory="%USERPROFILE%\Desktop\.git">
+          <TestDirectory useLoadContext="true" />
+          <RuntimeResolution>
+            <Directory path="%USERPROFILE%\Desktop\LG Stylo 3\framework" includeSubDirectories="true" />
+            <Directory path="%USERPROFILE%\Desktop\LG Stylo 3\framework" includeSubDirectories="true" />
+            <Directory path="%HOMEDRIVE%\" includeSubDirectories="true" />
+          </RuntimeResolution>
+          <DiscoveryResolution>
+            <Directory path="%USERPROFILE%\Desktop\.vscode" includeSubDirectories="true" />
+            <Directory path="%USERPROFILE%\Desktop\.vscode" includeSubDirectories="true" />
+          </DiscoveryResolution>
+        </AssemblyResolution>
+      </UnitTestRunConfig>
+    </TestTypeSpecific>
+    <AgentRule name="LocalMachineDefaultRole">
+      <DataCollectors>
+        <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+        </DataCollector>
+        <DataCollector uri="datacollector://microsoft/AspNetProfiler/1.0" assemblyQualifiedName="Microsoft.VisualStudio.PerformanceTools.DataCollection.AspNetProfileDataCollector, Microsoft.VisualStudio.PerformanceTools.DataCollection, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Profiler">
+        </DataCollector>
+        <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+        </DataCollector>
+        <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+        </DataCollector>
+      </DataCollectors>
+    </AgentRule>
+  </Execution>
+  <Properties />
+</TestSettings>

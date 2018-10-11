@@ -1,0 +1,11 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        xmlns:XPath="clr-namespace:System.Xml.XPath;assembly=System.Xml" x:Class="MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Template="{DynamicResource WindowControlTemplate1}" Background="{x:Null}" d:DataContext="{d:DesignInstance {x:Type XPath:XmlCaseOrder}}">
+    <ComboBox Height="12" Width="171"/>
+</Window>

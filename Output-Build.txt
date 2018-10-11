@@ -1,0 +1,17 @@
+﻿Starting runtime checksStarting runtime checks
+
+1>------ Build started: Project: App8, Configuration: chat Any CPU ------
+Starting emulator my_device ...
+Starting emulator my_device ...
+C:\Program Files (x86)\Android\android-sdk\tools\emulator.EXE -partition-size 512 -no-boot-anim -avd my_device -prop monodroid.avdname=my_deviceC:\Program Files (x86)\Android\android-sdk\tools\emulator.EXE -partition-size 512 -no-boot-anim -avd my_device -prop monodroid.avdname=my_device
+
+Warning: Quick Boot / Snapshots not supported on this machine. A CPU with EPT + UG features is currently needed. We will address this in a future release.emulator: WARNING: Crash service did not start
+
+emulator: WARNING: Not all modern X86 virtualization features supported, which introduces problems with slowdown when running Android on multicore vCPUs. Setting AVD to run with 1 vCPU core only.
+HAX is working and emulator runs in fast virt mode.
+Your emulator is out of date, please update by launching Android Studio:
+ - Start Android Studio
+ - Select menu "Tools > Android > SDK Manager"
+ - Click "SDK Tools" tab
+ - Check "Android Emulator" checkbox
+ - Click "OK"
